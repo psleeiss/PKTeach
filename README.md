@@ -1,6 +1,6 @@
 # PKTeach
 PKTeach Software for Pro-Arm 2200 Robot (yes, the original software!)
-<Repository under contruction: 2019-09-09)
+(Repository under contruction: 2019-09-09)
 
 The Unintersting History of PKTeach
 
