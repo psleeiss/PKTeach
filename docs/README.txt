@@ -1,0 +1,1 @@
+This directory contains any RS-2200 Robot documentation as well as any PKTeach software documentation I could find. Currently, there is a PDF of the original Marcraft manual that accompanied the robot, including a section on how to use the PKTeach software.
