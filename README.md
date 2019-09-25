@@ -5,7 +5,7 @@ PKTeach Software for Pro-Arm 2200 Robot (Now with the PKTEACH.exe binary and a P
 
 The Unintersting History of PKTeach
 
-Back in the 1980s I was working as a software developer and a systems integrator aiding a training company to provide robotics training to automotive employees in the Detroit area. Pro-Arm 2200 robots were purcahsed, and not being satisifed with the software that came with it (it was pretty ugly!) I spent a long weekend and wrote a program called PKTeach. After several updates and improvements, the software not only looked much better on the screen than the original BASIC program that was provided, but also functioned better as it tried to account for the inconsistencies that are introduced by the Pro-Arm 2200 robot due to the fact that it lacks a feedback loop. This software worked out quite well and ultimately was used in all of the labs we established that utilized the Pro-Arm robot.  
+Back in the 1980s I was working as a software developer and a systems integrator aiding a training company to provide robotics training to automotive employees in the Detroit area. Pro-Arm 2200 robots were purchased, and not being satisifed with the software that came with it (it was pretty ugly!) I spent a long weekend and wrote a program called PKTeach. After several updates and improvements, the software not only looked much better on the screen than the original BASIC program that was provided originally with the robot, but is also functioned better as it tried to account for the inconsistencies that are introduced by the Pro-Arm 2200 robot due to the fact that it lacks a feedback loop. This software worked out quite well and ultimately was used in all of the labs we established that utilized the Pro-Arm robot.  
 
 At one point during the life of PKTeach I mailed a copy of the software to Marcraft International, which was marketing the Pro-Arm 2200 robot world wide. That began a long relationship between myself and the people at Marcraft, starting with the packaging of this software with most (or was it all?) of their sales of the robots and their training modules. 
 
@@ -20,16 +20,17 @@ Brent was already working on his own python adaptation of the software, but as l
 
 Retranslated: Please give attribution to me for writing the software and making it available to you for free, and please don't be so rude as to try to sue me if it doesn't do what you think it ought to do. You use this software at your own risk. Also, I ask that you also give attribution to Marcraft for their central role in the distribution of both the robot and the software. They have also been very kind in making available resources for the robot and the software and fully support the open sourcing of this software.
 
-Please note that while my time is limited, I am happy to help anyone as much as I am able who would like to know more about the software or perhaps are workign on your own incarnation of it. 
+Please note that while my time is limited, I am happy to help anyone as much as I am able who would like to know more about the software or perhaps are working on their own version of the software. 
 
-Since I doubt that I can completely rebuild the software given the age of the tools, and since the binaries supplied are branded for Marcraft International, and since Marcraft helped make PKTeach "famous" (such as it is), please give attribution to Marcraft as well for all of their efforts to create and promote the robots and for 
+Since I doubt that I can completely rebuild the software given the age of the tools (but I still might try!), and since the binaries supplied are branded for Marcraft International, and since Marcraft helped make PKTeach "famous" (such as it is), please give attribution to Marcraft as well for all of their efforts to create and promote the robots and for 
 
-I *may* have all of the components to rebuild the software, but at the moment I'm afraid I just don't have the time to embark on such a project. If there is interest, maybe I will in the future, but for now feel free to use the binaries and peruse the source code, and if I can get my hands on it, to look through the documentation posted here as well. 
+I *may* have all of the components to rebuild the software, but at the moment I'm afraid I just don't have the time to embark on such a project. If there is interest I might do so at some time in the future, but for now feel free to use the binaries and peruse the source code, and to make use of the documentation posted here as well. 
 
 Regarding the binaries: 
 1) The PKTeach binaries posted here are 32-bit Windows executables and as such, will NOT run under any 64-bit version of windows. 
-2) The binaries "talk" to the robot via the parallel port. You'll have to figure out how to make that happen in today's virutalized hardware environment. 
+2) The binaries "talk" to the robot via the parallel port. You'll have to figure out the hardware sidie of things in today's virutalized hardware environment. If anyone comes up with a method to make this work, contact me via isshomefront.com (use the "contact us" feature) and I'll post your solution here for everyone else to see.
 3) As I build up this repository, I'll add information about what tools were used to build it, though you probably don't have access to them. Even so, I'll document what I can...you never know what will be useful to somebody. 
+4) It appears that at least SOME of the libraries I used to build this software may have been open sourced as well. If I can track that information down and it proves to be true, I'll provide links to that open source software. This all assumes that I am able to get the source code uploaded in a reasonable amount of time.  :)
 
 It makes me happy to know that something I wrote over 26 years ago is still found to be useful to a set of people today. I hope this respository ends up being of some use to you. 
 
