@@ -1,5 +1,5 @@
 # PKTeach
-PKTeach Software for Pro-Arm 2200 Robot (yes, the original software!)
+PKTeach Software for Pro-Arm 2200 Robot (Now with the PKTEACH.exe binary and a PDF documentation file!)
 (Repository under contruction: 2019-09-09)
 
 The Unintersting History of PKTeach
