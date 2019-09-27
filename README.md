@@ -22,13 +22,11 @@ Retranslated: Please give attribution to me for writing the software and making 
 
 Please note that while my time is limited, I am happy to help anyone as much as I am able who would like to know more about the software or perhaps are working on their own version of the software. 
 
-Since I doubt that I can completely rebuild the software given the age of the tools (but I still might try!), and since the binaries supplied are branded for Marcraft International, and since Marcraft helped make PKTeach "famous" (such as it is), please give attribution to Marcraft as well for all of their efforts to create and promote the robots and for 
-
-I *may* have all of the components to rebuild the software, but at the moment I'm afraid I just don't have the time to embark on such a project. If there is interest I might do so at some time in the future, but for now feel free to use the binaries and peruse the source code, and to make use of the documentation posted here as well. 
+I *may* have all of the components to rebuild the software, but at the moment I'm afraid I just don't have the time to embark on such a project. If there is interest I might do so at some point in the future, but for now feel free to use the binaries and peruse the source code, and to make use of the documentation posted here as well. 
 
 Regarding the binaries: 
-1) The PKTeach binaries posted here are 32-bit Windows executables and as such, will NOT run under any 64-bit version of windows. 
-2) The binaries "talk" to the robot via the parallel port. You'll have to figure out the hardware sidie of things in today's virutalized hardware environment. If anyone comes up with a method to make this work, contact me via isshomefront.com (use the "contact us" feature) and I'll post your solution here for everyone else to see.
+1) The PKTeach binary posted here is a 16-bit DOS executable and as such, will NOT run under any 64-bit version of windows. 
+2) The binary "talks" to the robot via the parallel port. You'll have to figure out the hardware sid of things in today's virutalized hardware environment. If anyone comes up with a method to make this work, contact me via isshomefront.com (use the "contact us" feature) and I'll post your solution here for everyone else to see.
 3) As I build up this repository, I'll add information about what tools were used to build it, though you probably don't have access to them. Even so, I'll document what I can...you never know what will be useful to somebody. 
 4) It appears that at least SOME of the libraries I used to build this software may have been open sourced as well. If I can track that information down and it proves to be true, I'll provide links to that open source software. This all assumes that I am able to get the source code uploaded in a reasonable amount of time.  :)
 
