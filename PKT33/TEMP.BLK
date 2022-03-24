@@ -1,0 +1,95 @@
+      miUpwardPrev9,
+      miLoad8         : if robot_mode = edit_prog
+                         then begin
+                           { See if this is a load next or load previous }
+                           load_command_error := false;
+                           if REV.MenuChoice = 8
+                           then begin
+
+                             if not lstnext
+                             then begin
+                               eofcom;
+                               load_command_error := true;
+                             end;
+                           end
+                           else begin
+                             if not lstprev
+                             then begin
+                               tofcom;
+                               load_command_error := true;
+                             end;
+                           end;
+
+                           if not load_command_error
+                           then begin
+
+                             need_save := true;
+                             { Process the command }
+                             if not pktostr(cur_ptr,command)
+                             then begin
+                               invalcom;
+                               exit;
+                             end;
+
+                             { If we are "backing up", force to go to last position }
+                             if REV.MenuChoice = 9
+                             then command := revert(cur_ptr);
+
+                             { Display the command in the command window }
+                             if REV.MenuChoice = 8  { Item #8(Load) }
+                             then updtcomr(command)
+                             else updtcomr(command);
+
+                             { Process the command }
+                             if not proccom(command,limit_err)
+                             then begin
+                               if limit_err <> ' '
+                               then rangeout(limit_err)
+                               else begin
+                                 invalcom;
+                                 error_occured := true;
+                                 finished := true;
+                               end;
+                             end
+                             else begin
+
+                               case command[1] of
+                                 'C': begin
+                                        updtabsr(abs_pos);
+                                        updtrelr(rel_pos);
+                                        roboinit(rel_pos);
+                                        roboinit(com_pos);
+                                      end;
+                                 'D': begin end;
+                                 'M': begin
+                                        updtabsr(abs_pos);
+                                        updtrelr(rel_pos);
+                                        roboinit(com_pos);
+                                        roboinit(rel_pos);
+                                        HiddenCursor;
+                                      end;
+                                 'N': begin
+                                        updtabsr(abs_pos);
+                                        updtrelr(rel_pos);
+                                        roboinit(rel_pos);
+                                      end;
+                                 'O': begin
+                                        updtabsr(abs_pos);
+                                        updtrelr(rel_pos);
+                                        roboinit(rel_pos);
+                                        roboinit(com_pos);
+                                      end;
+                                 'S': begin end;
+                                 'Z': begin
+                                        updtabsr(abs_pos);
+                                        updtrelr(rel_pos);
+                                      end;
+                                   else begin
+                                     {win[1]^.Select;}
+                                     writeln('Bad news from REVISE.INC.  No valid command');
+                                     finished := true;
+                                   end;
+                               end;  { Case statement }
+                             end;  { Else clause from proccom }
+                           end;   { Then clause (not load_command_error) }
+                         end;   { Case statement portion }

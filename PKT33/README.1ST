@@ -1,0 +1,330 @@
+
+
+
+
+
+
+          March 2, 1991
+
+
+
+          This file is provided to assist you in three situations:
+
+               1) Things you need to know about copy protected software.
+               2) Installing/Uninstalling your PK Teach software.
+               3) Recovering lost install counts.
+
+
+          WARNING:
+               Your  PK  Teach  software  comes  on  a  COPY  PROTECTED
+               diskette with  TWO (2)  installs allowed  (the second is
+               provided as  a BACKUP only and is not to be used for any
+               other purpose). Please read the information in this file
+               carefully  before   attempting  to   use  PK  Teach.  In
+               addition, do not run  the RESET.COM  program provided on
+               the master  program diskette  without first consulting a
+               technical support person (see  warning at  the bottom of
+               this  file).  Failure  to  do  so  may prevent technical
+               support representatives from being able to reset install
+               counts over the phone (explained in this file).
+
+
+          THINGS YOU NEED TO KNOW ABOUT COPY PROTECTED SOFTWARE.
+
+               Copy  protection  is  a  process  that  is incorporated into
+               commercial software to  prevent  unlawful  duplication. This
+               process will cause a program (like PK Teach) to "know" if it
+               has been copied from the original program disk to some other
+               disk. Upon  detecting this  condition, the program typically
+               displays a message and then halts execution.
+
+               "Installs" allow the user (that's you)  to copy  the program
+               in question (in this case, PKTEACH.EXE on your program disk)
+               to another disk (be it a hard disk  or another  floppy disk)
+               and have  that program  still function properly. In order to
+               do this, you must first copy the PKTEACH.EXE file to the new
+               disk. Then  you must transfer one "install" from your master
+               program disk (the disk that you  purchased) to  the new disk
+               (this process is described in much more detail below). 
+
+               Transferring an  "install" causes  one install "count" to be
+               subtracted from your master program disk  and added  to your
+               new disk.  Because your PK Teach software was shipped to you
+               with two  (2) install  counts, you  may install  it onto two
+               different disks.  (Please note that the second install count
+               is supplied  as a  courtesy of  the manufacturer  to be used
+               only in the event that the first install count is "lost". In
+               effect, it provides you with a  "backup" install  should any
+               misfortune befall  your first  install count. How an install
+               count can be "lost" is described below. In  addition, should
+               you lose  both install  counts, the  original master program
+
+
+
+
+
+
+
+
+
+
+
+
+               disk will still continue to function.)
+
+               The transferring  of an  "install count"  is accomplished by
+               the use  of the  PKMOVE.COM program  provided on your master
+               program disk.  This  process  is  described  in  more detail
+               below.
+
+               It is  highly recommended  that the  first thing you do when
+               you receive your PK Teach software is to  install it  onto a
+               "working" diskette  (a working diskette is simply a diskette
+               that you have copied  the  PKTEACH.EXE  file  onto  and then
+               added  an  install  count  using  PKMOVE.COM).  Then use the
+               working diskette  while  safely  storing  away  your program
+               master diskette.
+
+               If at any time you decide to discontinue use of your working
+               diskette, you  must first  "uninstall" the  PK Teach program
+               from it.  What this  means is  that you transfer the install
+               "count" from  your  working  diskette  back  to  your master
+               program diskette.  This process  is also described in detail
+               below.
+
+               An install count can become  "lost"  if  a  working  disk is
+               formatted or otherwise rendered unusable before the software
+               is uninstalled. Should this happen, fear not, for all is not
+               lost.  You  still  have  your  second install on your master
+               program diskette. In addition, your master  program diskette
+               will always  function, even  when both of your installs have
+               been used  up.  Finally,  you  have  the  option  of calling
+               Marcraft International where information can be given to you
+               over the phone to reset your install count.
+
+
+          INSTALLING/UNINSTALLING YOUR PK TEACH SOFTWARE:
+
+               Installing your PK Teach software onto  another diskette
+               is a two-step process.
+
+            STEP 1:
+               Copy  the  PKTEACH.EXE  file  from  your  master program
+               diskette to the new  diskette. This  can be accomplished
+               by using  the DOS copy command (see your DOS manual). If
+               you wish to copy the PKTEACH.EXE  file from  the disk in
+               drive A to the disk in drive B (for example), then enter
+               the following command:
+
+                    COPY A:PKTEACH.EXE B:      (then press <ENTER>)
+
+               Simply substitute the appropriate drive letter  for "B:"
+               for  any  other  drive.   That is, the following command
+               copies the PK Teach program to drive D:
+
+                    COPY A:PKTEACH.EXE D:      (then press <ENTER>)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            STEP 2:
+               Transfer one "install" from your master product diskette
+               to your  new diskette.  To transfer an install from your
+               program diskette if it is in drive A, to drive  D, enter
+               the following command:
+
+                    A:                  (then press <ENTER>)
+                    PKMOVE A: D:        (then press <ENTER>)
+
+               After  a  moment,  you  will  see  the following message
+               appear on the screen:
+
+               Moving protection FROM drive A TO drive D -Confirm (Y/N)
+
+               If  you  wish  to  transfer  an   install,  answer  "Y",
+               otherwise  press  the  "N"  key. If you simply press the
+               <ENTER> key, the program assumes that you meant "Y".
+
+               Pressing "N"  causes  PKMOVE  to  end.  Pressing  "Y" or
+               <ENTER> causes the program to attempt to move an install
+               to the specified disk. If  all  goes  well,  PKMOVE will
+               inform you as to how many installs remain on your master
+               product  diskette,  as  well  as  telling  you  that the
+               protection (meaning one install) was successfully moved.
+
+               Should an error arise, look closely at the error message
+               generated.  The   most  common   errors  involve  either
+               attempting to  install the software on a disk that it is
+               already installed on, or trying to  install the software
+               when your  master program  diskette has  already used up
+               its two installs. In  the former  case there  is nothing
+               for  you  to  do.  The  software is already successfully
+               installed.  In  the   latter   case   you   must  either
+               "uninstall" a copy of PK Teach from another working disk
+               before trying to install  the program  again or,  in the
+               case  where   disaster  has   struck,  contact  Marcraft
+               International for  assistance in  restoring your install
+               count.
+
+            UNINSTALLING YOUR PK TEACH SOFTWARE
+
+               Uninstalling your PK Teach software is quite simple. You
+               MUST uninstall  the  software  to  your  original master
+               program diskette.  In this  case, there  are no files to
+               copy. All you need to do is instruct  PKMOVE.COM to move
+               an install  from your  working disk  back to your master
+               program diskette. If your master program  diskette is in
+               drive  A,  and  you  previously  installed your PK Teach
+               software onto drive C,  then simply  enter the following
+               commands:
+
+                    A:                  (then press <ENTER>)
+                    PKMOVE C: A:        (then press <ENTER>)
+
+
+
+
+
+
+
+
+
+
+
+
+
+               These commands  tell the  PKMOVE program  to transfer an
+               install from drive C back to  drive A.  The program will
+               then display the following message:
+
+               Moving protection FROM drive C TO drive A -Confirm (Y/N)
+
+               Pressing "N"  causes the program to end. Pressing "Y" or
+               <ENTER> causes the program  to  attempt  to  recover the
+               install  count  from  the  disk  in drive C back to your
+               master program diskette in  drive A.  If all  goes well,
+               you  will  see  a  message  informing  of  the number of
+               installs now available on your master  program diskette,
+               as  well  as  a  message  stating  that the transfer was
+               successfully completed.
+
+               If a problem is encountered, the program will display an
+               error  message.  The  most  likely  message  would be to
+               inform you  that  the  disk  that  your  were  trying to
+               recover an install from never had an install moved to it
+               in the first place. In this  case, there  are no install
+               counts to recover.
+
+
+
+          RECOVERING LOST INSTALL COUNTS
+
+               As  mentioned   previously,  users  must  take  care  to
+               uninstall   their   software   before   reformatting  or
+               disposing   of   a   working   disk.   Unfortunately,  a
+               philosopher of great renown by the name of  "MURPHY" has
+               recognized  that  events  do  not always go according to
+               plan. Therefore, your master program diskette contains a
+               program  called  RESET.COM.  This  program  provides the
+               ability to  restore lost  install counts  to your master
+               diskette over the phone. What could be more easy?!
+
+               Should  you  have  need  of this service, simply contact
+               Marcraft International  at  1-800-441-6006.  Be  sure to
+               have your master program diskette handy because you will
+               need information from it to give  to the  assistant over
+               the phone. You will also need a pencil and paper.
+
+               In  brief,  after  the technical support person receives
+               the necessary information from you, he or she  will give
+               you a rather lengthy (over ten digits) code that will be
+               required by  the  RESET.COM  program.  Once  entered and
+               verified, the  RESET.COM program will adjust your master
+               diskette so that it will contain another install count.
+
+
+          WARNING!!!   WARNING!!!   WARNING!!!   WARNING!!!   WARNING!!!
+
+               Do not run the RESET.COM program unless instructed  to do so
+
+
+
+
+
+
+
+
+
+
+
+
+               by a technical support person over the phone. The reason for
+               this is that the RESET.COM program in required for resetting
+               your master  program disk's  install count.  In addition, if
+               you run your RESET.COM program ten times without  the proper
+               code, the  RESET.COM program will forever cease to function.
+               At that point, there will be no way to restore  your install
+               count short of sending you a new master product diskette.
+
+
+
+          The makers of this software hope that you will find it useful and
+          easy to use.  Because  we  seek  to  provide  you  with  the best
+          possible software  for use  with your  Pro-Arm robot, please feel
+          free to make any comments or suggestions concerning this product.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
