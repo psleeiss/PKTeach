@@ -1,0 +1,224 @@
+
+     FASTBACK PLUS         BACKUP HISTORY REPORT        4:51:16   4- 5-92
+
+S    Backup D: to 920405_A on  B: 730kb 3.5"  (High DMA) 
+     Include specifications:
+       \LANGUAGE\PKTEACH *       .*DM N
+     Exclude specifications:
+     Date Gate:  Accept file dates from  1- 1-80 through 12-31-99
+     Archive:    IGNORE, THEN RESET (FULL BACKUP)
+     Error Correction: ENABLED        Data Compression: SAVE DISKS
+
+
+           FILE NAME       SIZE     DATE      TIME    ATTR   VOL  TRACK
+          ------------    ------  --------  --------  ----  ----  -----
+
+P    PATH = \LANGUAGE\PKTEACH  
+F         ACTIVATE.INC      2812   6- 3-90  13:08:06  ----     1      1
+F         ADDCLOSE.INC       996   1-19-89  22:44:24  ----     1      1
+F         ADDOPEN.INC        931   1-19-89  22:43:58  ----     1      1
+F         ADDPT.INC         1458   3- 1-91  22:07:42  ----     1      1
+F         ADDPT.SV1         1458   1- 8-91  19:42:00  ----     1      1
+F         AMINUS.INC          62   4-10-89   5:06:00  ----     1      1
+F         AX.INC             624   1- 3-91  21:58:18  ----     1      1
+F         BASEMOIT.INC       930  10-31-90  17:08:12  ----     1      1
+F         BIOSPRNT.INC      1606   4-21-89   5:50:38  ----     1      1
+F         BLNKCHOP.INC      1186   6- 7-90  14:23:20  ----     1      1
+F         BLNKSTR.INC        917  10-25-90  19:34:24  ----     1      1
+F         PKTEACH.EXE     259648   4- 5-92   4:24:16  ----     1      2
+F         BUFFINPT.INC      5063   1-24-89   8:35:58  ----     1     22
+F         CAPLOCK.INC        260   6- 7-90  13:05:32  ----     1     23
+F         CHR2INTG.INC       982   1-24-89   8:36:02  ----     1     23
+F         CHR2REAL.INC      1491   1-24-89   8:36:08  ----     1     23
+F         COMPARSE.INC      7547   1-19-89  22:42:04  ----     1     23
+F         COPYRGHT.INC      1284   2-27-91  19:33:20  ----     1     23
+F         CURSROFF.INC       153   1-19-89  21:55:06  ----     1     23
+F         CURSRON.INC        572   1-19-89  21:57:36  ----     1     23
+F         DATESTR.INC       1100   1-19-89  21:55:16  ----     1     23
+F         DBLCLICK.INC       544   8-20-90  20:31:08  ----     1     24
+F         DELCON.INC         969   3- 1-91  22:22:24  ----     1     24
+F         DELFILE.INC        427   6-17-90  21:02:50  ----     1     24
+F         WRITEIT.INC      29157   3-30-92  23:31:48  ----     1     24
+F         DIRPRG.INC        1683   1- 3-91  21:55:06  ----     1     25
+F         DISABLE.INC         91   1-19-89  21:55:20  ----     1     25
+F         DISPSCRN.INC       729   1-19-89  21:55:10  ----     1     25
+F         DOSDIR.INC        1336   1-19-89  21:55:28  ----     1     25
+F         DOSDIRWN.INC       754   1- 8-91  19:05:56  ----     1     25
+F         DRIVERS.PAS       1508   2- 9-91  21:31:24  ----     1     25
+F         DSPCHRAR.INC       494   1-19-89  21:55:32  ----     1     25
+F         DSPSCRBF.INC       428   1-24-89   8:36:16  ----     1     25
+F         TOFCOM.INC         745   3-30-92  23:48:04  ----     1     26
+F         ELBOMOIT.INC       916  10-31-90  17:07:50  ----     1     26
+F         ENABLE.INC          90   1-19-89  21:55:36  ----     1     26
+F         EOFCOM.INC         753   1- 8-91  19:43:02  ----     1     26
+F         EVCHK.OBJ        16177  11- 6-89   2:03:00  ----     1     26
+F         EVEROBJ.PAS       7831   1-31-92   1:46:56  ----     1     27
+F         EWRATIO.INC        139   1-19-89  22:43:02  ----     1     28
+F         EXEPROG.INC       3172   2-27-91  21:51:38  ----     1     28
+F         FILEBE.INC        1932   2-27-91  22:40:12  ----     1     28
+F         FILEIT.INC         931   6-13-90  16:41:46  ----     1     28
+F         FILELD.INC         818   2-27-91  20:01:00  ----     1     28
+F         FILESTOR.INC       526   2-27-91  20:01:26  ----     1     28
+F         FILEXIST.INC       407   6- 7-90  13:12:02  ----     1     28
+F         FILING.PAS        2401   1-26-92   0:15:30  ----     1     28
+F         FONTS.PAS         1350   2- 9-91  21:32:04  ----     1     28
+F         GETBYTE.INC        727   1-19-89  21:57:08  ----     1     29
+F         GETDATES.INC      1572   1-19-89  21:57:22  ----     1     29
+F         GETINT.INC         628   1-19-89  22:43:10  ----     1     29
+F         GETINTG.INC        402   1-19-89  21:57:16  ----     1     29
+F         GETKEY.INC        1275   6- 1-90   8:50:16  ----     1     29
+F         GETREAL.INC        395   1-19-89  21:57:24  ----     1     29
+F         GETYESNO.INC       275   1-19-89  21:55:48  ----     1     29
+F         GETYN.INC          279   1-19-89  22:43:14  ----     1     29
+F         GOT.BAT             36   3-21-92  23:58:48  ----     1     29
+F         GRIPCLOS.INC       686   1- 8-91  19:43:30  ----     1     29
+F         GRIPMOIT.INC       946  10-31-90  17:09:34  ----     1     29
+F         GRIPOPEN.INC       650   1- 8-91  19:39:24  ----     1     29
+F         PKTCLONE.EXE     13968   4- 5-92   4:41:32  ----     1     29
+F         INITRVB.INC       1243   6-13-90  17:43:14  ----     1     31
+F         INITRVBM.INC       998   6-13-90  17:46:08  ----     1     31
+F         INITSCBF.INC       257   1-24-89   8:36:20  ----     1     31
+F         INTTOCHR.INC       328   1-24-89   8:36:24  ----     1     31
+F         INTTOSTR.INC       228   1-19-89  21:55:52  ----     1     31
+F         INVALCOM.INC       503   1- 3-91  22:09:28  ----     1     31
+F         INVALFIL.INC       685   1- 3-91  22:10:06  ----     1     31
+F         ISZERO.INC        1253   1- 8-91  19:43:54  ----     1     31
+F         KEYFLUSH.INC       327   1-19-89  21:55:56  ----     1     31
+F         LEFTJUST.INC       954   1-24-89   8:36:28  ----     1     31
+F         LSTCLEAR.INC       290   1-19-89  22:44:42  ----     1     31
+F         LSTDEL.INC         985   4- 5-92   1:55:44  ----     1     31
+F         LSTINS.INC        1299   1-19-89  22:43:34  ----     1     31
+F         LSTNEXT.INC        778   1-19-89  22:42:48  ----     1     31
+F         LSTPREV.INC        877   1-19-89  22:46:06  ----     1     32
+F         LSTTEST.INC        533   1-19-89  22:45:40  ----     1     32
+F         MAKEMENU.INC     36016   4-10-89   5:06:00  ----     1     32
+F         MENUCOLO.PAS      2485   5-23-90  12:02:14  ----     1     34
+F         MISC.PAS          6702   1- 3-91  20:53:16  ----     1     34
+F         MISCDEF.INC        897   5-27-90  16:36:08  ----     1     34
+F         MISCEXIT.INC       148   9- 1-90  11:07:48  ----     1     34
+F         MOIT.INC           667   7- 7-90  12:00:48  ----     1     34
+F         MOVEIT.INC       23691   6-21-90  16:55:42  ----     1     35
+F         NEST.INC           570   1- 8-91  19:44:18  ----     1     35
+F         NEWFILE.INC       1056  10-25-90  20:39:26  ----     1     36
+F         DIRTEST.PAS       3716   3-21-92  23:54:14  ----     1     36
+F         NUMLOCCH.INC      1188   1- 8-91  18:29:02  ----     1     36
+F         NUMLOCK.INC        259   1-19-89  21:56:04  ----     1     36
+F         OBJECTS.INC       2003   5- 2-89   5:50:00  ----     1     36
+F         OLDINTR.INC        623   1-19-89  22:44:12  ----     1     36
+F         OMINUS.INC          67   4-10-89   5:06:00  ----     1     36
+F         ONEKEY.INC         561   1-19-89  21:57:42  ----     1     36
+F         OPDEFINE.INC      3546   3-25-92  20:07:58  ----     1     36
+F         OPENFILE.INC      1049   1-19-89  21:56:12  ----     1     36
+F         OPENTEXT.INC      1049   1-19-89  21:56:18  ----     1     37
+F         OPLUS.INC           67   4-10-89   5:06:00  ----     1     37
+F         PKTCLONE.PAS      3266   4- 5-92   4:40:56  ----     1     37
+F         PENDENT2.INC     11437   3- 3-91   0:18:14  ----     1     37
+F         PENDENT2.SAV     12404   1- 7-91  18:57:46  ----     1     37
+F         PENDENT3.INC      2606   3- 2-91  23:13:02  ----     1     38
+F         PENDENTM.INC       560   1- 8-91  19:39:46  ----     1     38
+F         TITLE2.INC         890   4- 5-92   4:20:00  ----     1     38
+F         XBUFINPT.SV1      5339   1-19-89  22:47:08  ----     1     38
+F         XBUFINPT.INC      5464   3-25-92  22:31:48  ----     1     38
+F         PICKFILE.PAS     11100  10-28-90  17:42:44  ----     1     39
+F         PITCMOIT.INC       974  10-26-90   8:12:40  ----     1     39
+F         PKEXIT.INC         710   1- 8-91  18:59:20  ----     1     39
+F         PKOPEN.INC        1011   6-16-90  10:24:34  ----     1     39
+F         TITLE.INC         2678   4- 5-92   4:19:54  ----     1     39
+F         PKTEACH.PAS       2350   4- 5-92   4:23:10  ----     1     40
+F         PKTEACH.BAK       2350   1-25-92  17:08:18  ----     1     40
+F         PKTM.INC          1157   4-26-90   7:10:12  ----     1     40
+F         PKTCLONE.BAK      3259   4- 5-92   4:39:48  ----     1     40
+F         PKTOASC.INC       2725   2-27-91  19:17:04  ----     1     40
+F         PKTOSTR.INC       1401   1-19-89  22:43:40  ----     1     40
+F         PRINTSCR.INC       144   1-27-89   8:31:42  ----     1     41
+F         PROCCOM.INC       8603  10-27-90  17:33:38  ----     1     41
+F         PRODINF.INC       1816   1- 8-91  19:44:46  ----     1     41
+F         RADDPT.INC        1507   3- 1-91  22:05:06  ----     1     41
+F         RADDPT.SV1        1507   1- 8-91  18:29:30  ----     1     41
+F         RANGEOUT.INC       953   1- 8-91  19:41:16  ----     1     41
+F         RANGEUP.INC        708  10-31-90  17:11:44  ----     1     42
+F         RBFILECR.INC      2209   1-19-89  22:41:44  ----     1     42
+F         READCHAR.INC       572   1-24-89   8:36:36  ----     1     42
+F         README.1ST       12828   3- 2-91  22:52:30  ----     1     42
+F         README.WP         9639   3- 2-91  22:51:16  ----     1     43
+F         REVERT.INC        2154   1-19-89  22:45:22  ----     1     43
+F         REVISE.INC        4347   3- 3-91   0:20:52  ----     1     43
+F         REVMOVE.INC      10856   3- 1-91  20:56:50  ----     1     44
+F         ROBOFILE.INC       765   1-19-89  22:47:26  ----     1     44
+F         ROBOINIT.INC       264   1-19-89  22:44:50  ----     1     44
+F         ROBOMAIN.INC      3173   2-27-91  19:15:42  ----     1     44
+F         ROBOMOVE.INC      2373   1- 3-91  23:27:06  ----     1     44
+F         ROBOMRNG.INC       288   1-19-89  22:45:12  ----     1     45
+F         ROBOPBDF.INC       219   1-19-89  22:43:30  ----     1     45
+F         ROBOPRDF.INC       613   1-19-89  22:44:46  ----     1     45
+F         ROBOSTEP.INC       287   1-19-89  22:45:26  ----     1     45
+F         DELNOCOM.INC       651   4- 1-92  11:28:02  ----     1     45
+F         ROBOT2.PAS       15240   3- 1-91  22:55:00  ----     1     45
+F         ROBOWRIT.INC      1722   2- 9-91  20:02:42  ----     1     46
+F         ROBWRITE.INC      2093   1- 3-91  23:31:32  ----     1     46
+F         ROLLMOIT.INC       935  10-26-90   8:12:22  ----     1     46
+F         RVBCONST.INC       223   6-11-90  18:47:56  ----     1     46
+F         RVBWRITE.INC       389   6-19-90  17:28:28  ----     1     46
+F         SAVECHK.INC        936   1- 8-91  18:30:00  ----     1     46
+F         SAVECHNG.INC      1086   2-27-91  22:32:58  ----     1     46
+F         SAVEPROG.INC       708   1- 8-91  19:37:30  ----     1     46
+F         SCBUFINP.INC      7838   1-24-89   8:36:46  ----     1     46
+F         SCRLOCK.INC        263   1-19-89  21:56:00  ----     1     47
+F         SCRNOFF.INC        241   1-19-89  21:56:26  ----     1     47
+F         SCRNPRC.INC       7559   1-24-89   8:36:58  ----     1     47
+F         SCRNPROC.PAS      5520  10-28-90  17:43:00  ----     1     47
+F         SCRNSHOT.INC      2048   1-19-89  21:56:30  ----     1     48
+F         SCRNUP.INC         794   6-29-89   9:27:16  ----     1     48
+F         SCRPCDEF.INC      2087   1-24-89   8:37:10  ----     1     48
+F         SECALERT.INC       203   1-22-90  15:14:52  ----     1     48
+F         XBUFINPT.PET      5467   3-25-92  21:56:40  ----     1     48
+F         SECURCHK.INC       943   9- 1-90  11:09:18  ----     1     48
+F         SECURITY.BAD        54   3- 4-91  19:05:04  ----     1     48
+F         SERATIO.INC        175   1-19-89  22:46:02  ----     1     48
+F         SETBORDR.INC       443   1-19-89  21:56:22  ----     1     48
+F         SETDIR.INC         630   1-19-89  21:56:38  ----     1     48
+F         SHOLMOIT.INC       974  10-31-90  17:08:38  ----     1     49
+F         SMACS.INC         5306   4-10-89   5:06:00  ----     1     49
+F         SOUNDS.PAS        2054   1- 3-91  20:59:44  ----     1     49
+F         SOUNDTST.PAS        70   1-22-90  15:23:46  ----     1     49
+F         STR2INTG.INC       696   1-19-89  21:56:42  ----     1     49
+F         STR2REAL.INC       552   1-19-89  21:56:46  ----     1     49
+F         STRFEXT.INC        494   1-19-89  21:56:50  ----     1     49
+F         SWRATIO.INC        170   1-19-89  22:46:18  ----     1     49
+F         SPEED.INC         1061   3-25-92  23:00:08  ----     1     49
+F         TEMP.BLK          4560   3- 2-91  23:39:36  ----     1     49
+F         TEXTPIXL.INC       252   1-19-89  21:56:54  ----     1     50
+F         TIMESTR.INC       1106   1-19-89  21:57:00  ----     1     50
+F         TITLE.BAK         2679   3- 2-91  20:15:26  ----     1     50
+F         TITLE2.BAK         891   3- 2-91  19:32:42  ----     1     50
+F         TITLETST.PAS       278   3- 2-91  19:42:04  ----     1     50
+F         TPC.CFG            269   3-31-92  20:46:32  ----     1     50
+F         PENDENT.INC       4515   3-28-92  16:40:36  ----     1     50
+F         TURBO55.PCK       1201   6- 3-91  13:29:10  ----     1     50
+F         UPDTABSR.INC      1052   1- 3-91  22:35:44  ----     1     50
+F         UPDTCOMR.INC       368  10-31-90  17:16:00  ----     1     50
+F         UPDTRELR.INC      1043   1- 3-91  22:36:32  ----     1     50
+F         UPPERSTR.INC       230   6- 7-90  13:32:56  ----     1     51
+F         VERFEXIT.INC      1166   2-27-91  22:31:12  ----     1     51
+F         VIDMODE.INC       2048   1-19-89  21:57:04  ----     1     51
+F         WILDCARD.INC       392   1-19-89  21:57:12  ----     1     51
+F         WINS.PAS          5733   1- 8-91  19:09:22  ----     1     51
+F         WNDPBDEF.INC       886   1-24-89  10:00:56  ----     1     51
+F         WNDPRDEF.INC      2503   1-24-89  10:01:04  ----     1     51
+F         WNFILENM.INC      1743   1- 8-91  19:40:48  ----     1     51
+F         WRITCHAR.INC       541   1-24-89   8:37:14  ----     1     52
+F         DI.PAS            5290   3-30-92  23:35:22  ----     1     52
+F         WRITENEW.INC      6471   6-10-90  21:13:34  ----     1     52
+F         PKTMAIN.PAS       8199   3-25-92  22:27:28  ----     1     52
+F         XGETINT.INC        731   7-30-90  20:02:20  ----     1     53
+F         YESNOCHK.INC      1447   1-24-89   8:37:20  ----     1     53
+F         YORN.INC          1117   1- 7-91  18:37:28  ----     1     53
+F         ZQUEST.INC        1593   1- 8-91  19:23:50  ----     1     53
+F         ZVERIFY.INC       1297   1- 9-91  16:26:54  ----     1     53
+F         NOPROGS.INC        517   3-21-92  22:46:04  ----     1     53
+F         TDELAY.INC        1285   3-25-92  22:51:34  ----     1     53
+F         DELPROG.INC       1485   3-21-92  23:01:50  ----     1     54
+F         WRITEIT.SV1      26648  10-31-90  17:26:36  ----     1     54
+F         REMCON.INC         740   4- 1-92  11:40:26  ----     1     55
+F         DUPFNAME.INC       703   3-30-92  23:47:48  ----     1     55
+F         ROBOT.PAS        22437   3-31-92  20:55:38  ----     1     55
