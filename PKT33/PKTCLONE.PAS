@@ -39,7 +39,7 @@ begin
   first_time := true;
   writeln;
   writeln('PK Teach Cloner Software ');
-  writeln('Copyright (C) 1992 by Inspired Software Solutions, Inc.');
+  writeln('Copyright (C) 2022 by Peter S. Lee');
   writeln('All rights reserved.');
   writeln;
   writeln;
