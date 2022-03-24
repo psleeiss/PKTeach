@@ -61,7 +61,7 @@ begin
       SetColor(Yellow);
       SetTextStyle(SmallFont, Horizdir, 4);
       OutTextXY(Succ(GetMaxX) div 2,(GetMaxY div 2) + 50,
-                'Copyright (C) 1991 by Inspired Software Solutions, Inc');
+                'Copyright (C) 2022 by Peter S. Lee');
       OutTextXY(Succ(GetmaxX) div 2,(GetMaxY div 2) + 70,
                 'All Rights Reserved');
       OutTextXY(Succ(getmaxX) div 2,(GetMaxY div 2) + 90,
