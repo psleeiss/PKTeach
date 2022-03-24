@@ -25,7 +25,7 @@ begin
   gotoxy(28,12);
   Write('PK-TEACH ('+pk_version+')');
   gotoxy(12,17);
-  Write('Copyright (C) 1991 by Inspired Software Solutions, Inc');
+  Write('Copyright (C) 2022 by Peter S. Lee');
   gotoxy(30,18);
   write('All rights reserved');
   gotoxy(30,22);
