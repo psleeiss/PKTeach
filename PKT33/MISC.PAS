@@ -1,7 +1,7 @@
 {$F+}
 unit misc;
 
-{                  Copyright (C) 1988 by PK Technologies, Inc.          }
+{                  Copyright (C) 2022 by Peter S. Lee                   }
 {                             All Rights Reserved.                      }
 
 { This unit contains several general purpose routines that just don't fit }
